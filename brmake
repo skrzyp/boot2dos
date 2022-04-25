@@ -1,0 +1,7 @@
+#!/bin/sh
+
+extdir="$(dirname $(readlink -f $0))"
+
+pushd $extdir
+make -C buildroot BR2_EXTERNAL="$extdir" $*
+popd
