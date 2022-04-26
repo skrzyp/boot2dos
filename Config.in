@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_BOOT2DOS_PATH/packages/dosbox/Config.in"
